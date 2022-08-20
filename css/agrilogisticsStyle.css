@@ -1,0 +1,316 @@
+﻿body {
+    padding:0px;
+    margin:0px;
+}
+#agriLogisticsBanner{
+    display:none;
+}
+.bannerSection{
+    position:none;
+    display:block;
+    margin-top:-5px;
+}
+.bannercontent{
+    position:none;
+    top:0px;
+    left:0px;
+    width:100%;
+}
+.topFeatureBox{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.boxContent{
+    display:block;
+    margin:0px 15px 20px 15px;
+    background:rgba(255, 255, 255, 0.8);
+    width:90%;
+    padding:0px;
+}
+.boxContent h4{
+    font-size:18px;
+    color:#333;
+}
+@media (min-width:1024px){
+    .bannerSection{
+        position:relative;
+        display:block;
+    }
+    .bannercontent{
+        position:absolute;
+        top:50%;
+        transform:translate(0, -50%);
+        left:0px;
+        width:100%;
+    }
+    #agriLogisticsBanner{
+        display:block;
+    }
+    .topFeatureBox{
+        display:flex;
+        width:100%;
+    }
+    .boxContent{
+        display:inline-block;
+        width:33%;
+        padding:0px 10px;
+        border-radius: 3px;
+    }
+    .boxContent h4{
+        font-size:22px;
+        color:#333;
+    }
+
+}
+
+.stakeholders{
+    display:block;
+    padding:20px 0px 0px 0px;
+}
+.stakeholders h2{
+    font-size:22px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.stakeholdersFeature, .stakeholdersFeatureimg{
+    display:block;
+    width:100%;
+    margin:0px auto;
+}
+.stakeholdersFeature h5{
+    text-align:center;
+}
+.stakeholdersFeatureimg{
+    border:1px solid #f1f1f1;
+    text-align:center;
+    margin-bottom:15px;
+    padding: 0px 0px;
+}
+.stakeholdersFeatureimg h5{
+    font-size:18px;
+}
+.stakeholdersFeatureimg img{
+    width:100%;
+}
+.stakeholdersFeature .stakeIcon{
+    width:50px;
+    height:50px;
+    margin:auto;
+    background:rgba(255, 74, 23, 0.15);
+    border-radius:50% 50%;
+    text-align:center;
+}
+.stakeholdersFeature .stakeIcon i{
+    vertical-align:middle;
+    margin-top:17px;
+}
+@media (min-width:1024px){
+    .stakeholders{
+        display:block;
+        padding:0px 0px 0px 0px;
+    }
+    .stakeholders h2{
+        font-size:25px;
+    }
+}
+.truckGuidSection{
+    display:block;
+    position:relative;
+    padding:20px 0px 0px 0px;
+}
+.truckGuidSection img{
+    width:100%;
+    z-index:1;
+    height: 300px;
+}
+.guidbannerContent{
+    position:absolute;
+    width:98%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index:2;
+    text-align:center;
+}
+.guidbannerContent h3{
+    color:#fff;
+    text-align:center;
+    font-size:22px;
+}
+.guidbannerContent p{
+    color:#fff;
+    text-align:center;
+}
+@media (min-width:1024px){
+    .truckGuidSection {
+        padding:30px 0px 0px 0px;
+    }
+    .guidbannerContent{
+        width:100%;
+    }
+    .guidbannerContent h3{
+        font-size:24px;
+    }
+    .truckGuidSection img{
+        width:100%;
+        height: auto;
+    }
+}
+.featured-wrok-section{
+    display:block;
+    padding:20px 0px 0px 0px;
+}
+.featureImgae-Box{
+    display:block;
+    width:100%;
+}
+.featureImgae{
+    display:block;
+    width:100%;
+    margin-bottom:15px;
+}
+.featureImgae img{
+    width:98%;
+}
+.featured-wrok-section p{
+    text-align:center;
+    margin-bottom: 15px!important;
+} 
+.featured-wrok-section h2{
+    text-align:center;
+    font-size:22px;
+}
+@media (min-width:1024px){
+    .featured-wrok-section{
+    display:block;
+    padding:10px 0px 20px 0px;
+}
+    .featureImgae-Box{
+        display:flex;
+    }
+    .featureImgae{
+        display:inline-block;
+        width:50%;
+    }
+    .featured-wrok-section h2{
+        font-size:30px;
+    }
+}
+
+.warehousingSection{
+    display:block;
+    padding:20px 0px 0px;
+}
+.warehousingSection h2{
+    text-align:center;
+    font-size:22px;
+}
+.warehousingSection p{
+    text-align:center;
+}
+.warHousing-Content-box{
+    display:block;
+}
+.warHousing-Content{
+    padding:20px;
+    display:block;
+    border-top:1px solid #f1f1f1;
+    border-left:1px solid #f1f1f1;
+    border-bottom:1px solid #f1f1f1;
+    border-right:1px solid #f1f1f1;
+    width:100%;
+}
+.warHousing-Content p{
+    text-align:left;
+    color:#808080;
+}
+.warHousing-img{
+    display:block;
+    width:100%;
+}
+.warHousing-img img{
+    width:100%;
+}
+.carousel-control.left, .carousel-control.right{
+    display:none;
+}
+.carousel-control .glyphicon-chevron-left {
+    left: -23%;
+}
+.carousel-control .glyphicon-chevron-right {
+    right: -23%;
+}
+#wareHousingSlider{
+    padding:20px 0px;
+}
+.carousel-inner .item.active{
+    color:#808080 !important;
+}
+.warHousing-Content h3{
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+@media (min-width:1024px){
+    .warHousing-Content{
+        padding:50px 20px;
+    }
+    .warehousingSection{
+        padding:10px 0px 0px 0px;
+    }
+    .warehousingSection h2{
+        font-size:30px;
+    }
+    .warHousing-Content-box{
+        display:flex;
+    }
+    .warHousing-Content{
+        display:inline-block;
+        border-top:1px solid #f1f1f1;
+        border-left:1px solid #f1f1f1;
+        border-bottom:1px solid #f1f1f1;
+        border-right:none;
+        width:50%;
+        vertical-align:middle;
+    }
+    .warHousing-img{
+        display:inline-block;
+        width:50%;
+    }
+    #agriLogisticsBanner .carousel-control.left, #agriLogisticsBanner .carousel-control.right{
+        display:none;
+    }
+}
+.bookNow{
+    background: rgba(197, 57, 9, 1);
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff !important;
+    border-radius: 3px;
+    font-size: 20px;
+    box-shadow: 2px 2px 0px rgba(197, 57, 9, 0.58);
+    font-weight: bold;
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+.bookNow:hover{
+    background:#1a528a;
+    color:#fff !important;
+    box-shadow: 2px 2px 0px rgba(26, 82, 138, 0.58);
+}
+@media (min-width:1024px){
+    .bookNow{
+        width: 25%;
+    }
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    margin: 0px auto !important;
+}
+.headingColor h3{
+    color:#fff;
+    text-align:center;
+}
